@@ -1,0 +1,16 @@
+/* ============================================
+   浅色主题 —— 预留
+   ============================================ */
+
+.theme-light {
+  --color-bg-primary: #f0f2f5;
+  --color-bg-panel: rgba(255, 255, 255, 0.95);
+  --color-bg-panel-hover: rgba(255, 255, 255, 1);
+  --color-accent: #1677ff;
+  --color-border: rgba(22, 119, 255, 0.2);
+  --color-border-glow: rgba(22, 119, 255, 0.4);
+  --color-text-primary: #1a1a2e;
+  --color-text-secondary: #4a5568;
+  --color-text-dim: #a0aec0;
+  --color-text-accent: #1677ff;
+}

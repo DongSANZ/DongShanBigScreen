@@ -1,0 +1,9 @@
+/* DataPanel 组件样式 */
+.data-panel {
+  transition: box-shadow 0.3s ease;
+}
+
+.data-panel-chart {
+  width: 100%;
+  height: 100%;
+}

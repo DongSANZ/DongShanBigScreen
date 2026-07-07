@@ -1,0 +1,20 @@
+module.exports = {
+  root: true,
+  env: {
+    browser: true,
+    es2021: true,
+    node: true,
+  },
+  extends: 'eslint:recommended',
+  parserOptions: {
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+  },
+  rules: {
+    'no-console': 'warn',
+    'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+    'no-constant-condition': ['error', { checkLoops: false }],
+    'prefer-const': 'error',
+    'no-var': 'error',
+  },
+};
